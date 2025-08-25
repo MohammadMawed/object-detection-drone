@@ -1,4 +1,4 @@
-# 🚁 Pi Drone Vision System
+# 🚁 Object Detection Drone System
 
 An advanced, Raspberry Pi-optimized computer vision system for drones featuring real-time face recognition, object tracking, and motion detection. Built specifically for drone applications with performance optimizations for Pi hardware.
 
@@ -47,8 +47,8 @@ An advanced, Raspberry Pi-optimized computer vision system for drones featuring 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/pi-drone-vision.git
-cd pi-drone-vision
+git clone https://github.com/MohammadMawed/object-detection-drone.git
+cd object-detection-drone
 ```
 
 ### 2. Run Installation Script
@@ -102,7 +102,7 @@ python drone_vision.py
 ## 📁 Project Structure
 
 ```
-pi-drone-vision/
+object-detection-drone/
 ├── drone_vision.py          # Main application
 ├── requirements.txt         # Python dependencies
 ├── install.sh              # Installation script
@@ -229,8 +229,8 @@ Contributions are welcome! Please read our contributing guidelines:
 ### Development Setup
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/pi-drone-vision.git
-cd pi-drone-vision
+git clone https://github.com/MohammadMawed/object-detection-drone.git
+cd object-detection-drone
 
 # Create virtual environment
 python -m venv venv
@@ -256,9 +256,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/pi-drone-vision/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/pi-drone-vision/discussions)
-- **Wiki**: [Project Wiki](https://github.com/yourusername/pi-drone-vision/wiki)
+- **Issues**: [GitHub Issues](https://github.com/MohammadMawed/object-detection-drone/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/MohammadMawed/object-detection-drone/discussions)
+- **Wiki**: [Project Wiki](https://github.com/MohammadMawed/object-detection-drone/wiki)
 
 ## 🔄 Changelog
 
@@ -273,8 +273,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+**Made with ❤️ for the drone and Raspberry Pi community**
 
 ### 📊 Stats
-![GitHub stars](https://img.shields.io/github/stars/yourusername/pi-drone-vision?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/pi-drone-vision?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/pi-drone-vision)
+![GitHub stars](https://img.shields.io/github/stars/MohammadMawed/object-detection-drone?style=social)
+![GitHub forks](https://img.shields.io/github/forks/MohammadMawed/object-detection-drone?style=social)
+![GitHub issues](https://img.shields.io/github/issues/MohammadMawed/object-detection-drone)
