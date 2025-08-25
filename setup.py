@@ -22,18 +22,18 @@ def read_requirements():
     return requirements
 
 setup(
-    name="pi-drone-vision",
+    name="object-detection-drone",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Mohammad Mawed",
+    author_email="mohammadmawed@outlook.com",
     description="Advanced Raspberry Pi computer vision system for drones with face recognition and object tracking",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pi-drone-vision",
+    url="https://github.com/MohammadMawed/object-detection-drone",
     project_urls={
-        "Bug Tracker": "https://github.com/yourusername/pi-drone-vision/issues",
-        "Documentation": "https://github.com/yourusername/pi-drone-vision/wiki",
-        "Source Code": "https://github.com/yourusername/pi-drone-vision",
+        "Bug Tracker": "https://github.com/MohammadMawed/object-detection-drone/issues",
+        "Documentation": "https://github.com/MohammadMawed/object-detection-drone/wiki",
+        "Source Code": "https://github.com/MohammadMawed/object-detection-drone",
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -69,7 +69,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "pi-drone-vision=drone_vision:main",
+            "object-detection-drone=drone_vision:main",
         ],
     },
     keywords=[
