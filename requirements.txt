@@ -1,0 +1,23 @@
+# Pi Drone Vision System Requirements
+# Core computer vision libraries
+opencv-python==4.8.1.78
+face-recognition==1.3.0
+numpy>=1.21.0
+
+# Raspberry Pi camera interface
+picamera2>=0.3.12
+
+# Image processing
+Pillow>=9.0.0
+
+# Utility libraries
+dlib>=19.24.0
+
+# Optional: Performance monitoring
+psutil>=5.9.0
+
+# Development dependencies (optional)
+# Install with: pip install -r requirements-dev.txt
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
