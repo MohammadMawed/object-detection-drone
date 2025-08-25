@@ -273,6 +273,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+# Install dlib from system packages instead of pip
+sudo apt install -y python3-dlib
+
+# Then install other packages via pip
+source venv/bin/activate
+pip install opencv-python numpy Pillow picamera2 psutil
+
+# For face-recognition, try this lighter approach
+pip install face-recognition --no-deps 
+
 **Made with ❤️ for the drone and Raspberry Pi community**
 
 ### 📊 Stats
